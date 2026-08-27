@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student contact form</title>
+    </head>
+    <body>
+        <header>
+             <h1 style="text-align: center;">Safe Hands Int'l School</h1>
+             <hr>
+             <h2 style="background-color: antiquewhite;">[Student Contact Form]</h2>
+             <p> <strong>Welcome to the student support centre</strong></p>
+              <hr>
+        </header>
+
+        <main>
+
+            <section>
+                <h3 class="student information">Student Information:</h3>
+                <p><i>Please provide your details below</i></p>
+                <form>
+
+                    <label>Full name:</label>
+                    <input type="text" placeholder="Enter your full name">
+                    
+                    <br><br>
+
+                    <label>Student ID:</label>
+                    <input type="text" placeholder="Enter your student ID">
+
+                    <br><br>
+
+                    <label>Email:</label>
+                    <input type="email" placeholder="your @email">
+
+                    <br><br>
+
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="+234">
+                    
+                    <br><br>
+                    
+                    <details>
+                        <summary>Gender</summary>
+                        <input type="radio" name="gender" value="Male"> <label>male</label>
+                        <input type="radio" name="gender" value="Female"> <label>Female</label>
+                    </details>  
+                        
+                    <hr>
+                        
+                        <label>Date of Birth:</label>
+                        <input type="date" name="dob" required>
+
+                    <br><br>
+
+                    <Label>Department/class:</Label>
+                    <select name="clas">
+                        <option>JSS1</option>
+                         <option>JSS2</option>
+                          <option>JSS3</option>
+                           <option>SSS1</option>
+                            <option>SSS2</option>
+                             <option>SSS3</option>
+                    </select>
+                    
+                    <br><br>
+
+                    <label>Parent/Guardian Name:</label>
+                    <input type="text" name="Parent name">
+                    
+                    <br><br>
+                    
+                    <label>Parent phone</label>
+                    <input type="tel" name="parentphone" placeholder="+234">
+                    
+                    <br><br>
+                    
+                    <hr>
+
+                    <label>Address</label>
+                    <br>
+                    <textarea name="address" rows="4" cols="50" placeholder="house No."></textarea>
+                    <hr>
+                
+                </form>
+            </section>
+
+            <Section>
+                <h3>Reason for contacting the school:</h3>
+            <form>
+
+                <textarea rows="7" cols="70" placeholder="State your reason here..."></textarea>
+                <hr>
+
+                <label><i><strong>Preferred contact method</strong></i></label>
+                <br>
+                <textarea name="contact mathod" rows="3" cols="40" placeholder="Phone call/Whatsapp/Email"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="submit form">
+            </form>
+            </Section>
+        </main>
+
+        <footer>
+            <hr>
+            <centre>
+                <small>&copy; 2026 Safe Hands Int'l school. All Rights Reserved.</small><br>
+                <small>Last Updated: 25th August 2026</small>
+            </centre>
+        </footer>
+    </body>
+</html>
